@@ -88,19 +88,19 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
+        GhUserName: 'rab3it',
         GhRepositories: 'Cnblogs-Theme-SimpleMemory',
         GhVersions: 'v1.1.2',
         CnVersions: "",
         blogUser: "",
         blogAvatar: "",
-        blogStartDate: "2019-01-01",
+        /*blogStartDate: "2019-01-01",*/
         menuCustomList: {},
         menuNavList: [],
-        menuUserInfoBgImg: '',
-        webpageTitleOnblur: "(oﾟvﾟ)ノ Hi",
+        menuUserInfoBgImg: 'https://s2.ax1x.com/2019/08/07/eoEBxU.png',
+        /*webpageTitleOnblur: "rab3it",*/
         webpageTitleOnblurTimeOut: 500,
-        webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
+        webpageTitleFocus: "(O_O)欢迎回来！",
         webpageTitleFocusTimeOut: 1000,
         webpageIcon: "",
         fontIconExtend: "",
@@ -228,7 +228,7 @@ function initCheck() {
 function getVersionConfig() {
 
     window.cnblogsConfig.CnVersions = window.cnblogsConfig.GhVersions;
-    if (window.cnblogsConfig.GhUserName === 'BNDong') {
+    if (window.cnblogsConfig.GhUserName === 'rab3it') {
 
         $.getScript('https://gitee.com/dbnuo/Cnblogs-Theme-SimpleMemory/raw/master/version.js', function () {
             setConfVersion();
