@@ -181,7 +181,7 @@ if (initCheck()) {
         essayCodeHighlighting: '',
         essaySuffix: {
             codeImgUrl: '',
-            aboutHtml: '',
+            aboutHtml: '渗透测试，菜鸡的我，想要变强',
             copyrightHtml: '',
             supportHtml: ''
         },
